@@ -113,3 +113,5 @@ if __name__ == '__main__':
         <button type="submit" name="calculate_required">Calculate Required Grades</button>
         <button type="submit" name="result_total">Result Total</button>
 
+        
+http://127.0.0.1:5500/index.html

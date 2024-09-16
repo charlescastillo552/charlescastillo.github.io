@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+        input, button {
+            padding: 20px;
+            margin-top: 20px;
+            width: 100%;
+        }
+        .message {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Total Grade Calculator</h1>
+
+    <form id="gradeForm" >
+        <label for="prelim">Enter your Prelim Grade:</label>
+        <input type="text" id="prelim" name="prelim" required> <br><br>
+        
+        <label for="midterm">Enter your Midterm Grade:</label>
+        <input type="text" id="midterm" name="midterm"> <br><br>
+        
+        <label for="final">Enter your Final Grade:</label>
+        <input type="text" id="final" name="final"> <br><br>
+        
+        <button type="button" onclick="calculateGrade()">Calculate Total Grade</button>
+    </form>
+
+    <h2 id="result"></h2>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+   

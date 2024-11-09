@@ -1,41 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Privacy and Cybersecurity</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        header { background-color: #007bff; color: white; text-align: center; padding: 20px; }
-        nav { text-align: center; margin: 20px; }
-        nav a { margin: 0 15px; text-decoration: none; color: #007bff; font-size: 18px; }
-        footer { background-color: #f1f1f1; text-align: center; padding: 10px; margin-top: 20px; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Pâtisserie Academy - Participants Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header>
+    <h1>La Pâtisserie Academy</h1>
+    <nav>
+      <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#participants-graph">Participants Graph</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="overview">
+    <h2>Course Overview</h2>
+    <p>Welcome to the Online Baking Course at La Pâtisserie Academy. This dashboard tracks the participants and their progress.</p>
+  </section>
+  
+  <section id="participants-graph">
+    <h2>Participants Graph</h2>
+    <div class="graph-container">
+      <canvas id="participantsChart"></canvas>
+    </div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2024 La Pâtisserie Academy</p>
+  </footer>
 
-<header>
-    <h1>Data Privacy and Cybersecurity</h1>
-    <p>From the Perspective of a Perpetualite Student</p>
-</header>
-
-<nav>
-    <a href="index.html">Home</a>
-    <a href="data-privacy.html">Data Privacy</a>
-    <a href="cybersecurity.html">Cybersecurity</a>
-</nav>
-
-<main>
-    <section style="padding: 20px; text-align: center;">
-        <h2>Welcome to Our Blog</h2>
-        <p>Explore the importance of Data Privacy and Cybersecurity as a student of the University of Perpetual Help System Dalta. Learn how these principles affect your digital life and what steps you can take to stay safe online.</p>
-    </section>
-</main>
-
-<footer>
-    <p>&copy; 2024 Perpetualite Student Blog</p>
-</footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
-
